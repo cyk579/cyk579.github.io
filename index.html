@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yunkang Cheng | 程允康</title>
+  <meta name="description" content="Yunkang Cheng is an undergraduate at Tsinghua University working on robot learning, humanoid locomotion, and passive-wheel roller-skating.">
+  <link rel="canonical" href="https://cyk579.github.io/">
+  <meta property="og:title" content="Yunkang Cheng | 程允康">
+  <meta property="og:description" content="Robot learning and humanoid locomotion · Tsinghua University">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://cyk579.github.io/">
+  <meta property="og:image" content="https://cyk579.github.io/assets/portrait.webp">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <main class="page" id="main">
+    <header class="page-header">
+      <h1>Yunkang Cheng <span class="chinese" lang="zh-CN">「程允康」</span></h1>
+      <div class="short-rule" aria-hidden="true"></div>
+    </header>
+
+    <section class="bio" aria-label="About Yunkang">
+      <div class="bio-photo">
+        <img class="portrait" src="assets/portrait.webp" width="640" height="640" alt="Yunkang Cheng outdoors" fetchpriority="high">
+        <nav class="contact-links" aria-label="Contact and profiles">
+          <a href="Yunkang_Cheng_Academic_CV.pdf">CV</a>
+          <span aria-hidden="true">|</span>
+          <a href="mailto:m13700702234@163.com">Email</a>
+          <span aria-hidden="true">|</span>
+          <a href="https://github.com/cyk579">GitHub</a>
+        </nav>
+      </div>
+      <div class="bio-text">
+        <p>I am an undergraduate in the <strong>Department of Automation at Tsinghua University</strong>, expecting to graduate in 2029. I work in the Robot Control Laboratory with <strong>Prof. Mingguo Zhao</strong> and am a member of the <strong>Tsinghua Hephaestus</strong> humanoid soccer team.</p>
+        <p><strong>Research interests:</strong> robot learning, reinforcement and imitation learning, humanoid locomotion, contact dynamics, and sim-to-real transfer.</p>
+        <p>My research focuses on learning humanoid skills from demonstrations and bringing them onto real robots. I currently lead a project on <strong>passive-wheel humanoid roller-skating</strong>, connecting motion priors, contact modeling, and hardware experiments.</p>
+        <p class="opportunity">I am interested in summer research and academic exchange opportunities in robot learning. Please feel free to <a href="mailto:m13700702234@163.com">get in touch</a>.</p>
+      </div>
+    </section>
+
+    <nav class="section-nav" aria-label="On this page">
+      <a href="#publications">Publications</a>
+      <a href="#projects">Projects</a>
+      <a href="#honors">Honors</a>
+      <a href="#beyond-research">Beyond research</a>
+    </nav>
+
+    <section class="section" id="publications" aria-labelledby="publications-title">
+      <h2 id="publications-title">Publications</h2>
+      <article class="entry publication">
+        <div class="entry-media">
+          <a class="video-preview" href="https://cyk579.github.io/Roller-Skating/videos/hero_clean.mp4" aria-label="Watch the humanoid roller-skating demonstration"><img src="assets/skating.webp" width="800" height="450" alt="Booster T1 performing Push Glide in real-robot experiments"><span class="play-icon" aria-hidden="true">▶</span></a>
+          <p class="media-caption">Booster T1 · Real-robot demonstrations</p>
+        </div>
+        <div class="entry-body">
+          <h3><a href="https://cyk579.github.io/Roller-Skating/">Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors <span aria-hidden="true">↗</span></a></h3>
+          <p class="authors"><strong><u>Yunkang Cheng*</u></strong>, Yutong Wu*, Menghan Li, Shihe Zhou, Mingguo Zhao</p>
+          <p class="summary">Human skating demonstrations guide AMP-PPO policies for Pump Glide and Push Glide on a humanoid with passive skate wheels. The work combines wheel-contact modeling, simulation evaluation, and qualitative hardware demonstrations.</p>
+          <div class="tags"><span>CLAWAR 2026 · Oral</span><span>Imitation learning</span><span>Humanoid robotics</span></div>
+          <p class="entry-links"><a href="https://cyk579.github.io/Roller-Skating/">Project website ↗</a><a href="https://cyk579.github.io/Roller-Skating/videos/hero_clean.mp4">Demo video ↗</a></p>
+          <p class="note">* Equal contribution. Presented in Cranfield, UK, September 2026.</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <h2 id="projects-title">Project Highlights</h2>
+      <article class="entry">
+        <div class="entry-media">
+          <img src="assets/qmini.webp" width="800" height="500" loading="lazy" alt="The assembled Qmini bipedal robot on a laboratory workbench">
+        </div>
+        <div class="entry-body">
+          <h3>Qmini Bipedal Robot</h3>
+          <p class="entry-meta">Manufacturing Engineering Course Project · Fall 2025</p>
+          <p class="summary">Built and adapted an open-source 12-DoF biped, working through mechanical assembly, electronics integration, standing-pose calibration, and motion-control debugging.</p>
+          <div class="tags"><span>Robot hardware</span><span>Control</span><span>Prototyping</span></div>
+          <p class="entry-links"><a href="https://github.com/cyk579/RoboTamer4Qmini">Code repository (fork) ↗</a></p>
+        </div>
+      </article>
+      <article class="entry">
+        <div class="entry-media diagram">
+          <img src="assets/passive-walking.webp" width="850" height="522" loading="lazy" alt="MATLAB visualization of a passive biped's walking cycle">
+        </div>
+        <div class="entry-body">
+          <h3>Passive Walking Dynamics and Stability</h3>
+          <p class="entry-meta">Humanoid Robotics Course Project · October 2026</p>
+          <p class="summary">Modeled a curved-foot passive biped in MATLAB with continuous dynamics and impact resets. Analyzed fixed points of the step-to-step return map and checked 48 parameter settings using 50-step perturbation simulations.</p>
+          <div class="tags"><span>Dynamics</span><span>Stability analysis</span><span>MATLAB</span></div>
+        </div>
+      </article>
+      <article class="text-entry">
+        <div class="entry-heading"><h3>Humanoid Soccer with Tsinghua Hephaestus</h3><span class="entry-date">2025–2026</span></div>
+        <p class="summary">Developed high-speed obstacle avoidance and navigation for returning to the field and reaching assigned positions. Worked with teammates on integration and competition debugging for RoboCup and the World Humanoid Robot Games.</p>
+        <div class="tags"><span>Robot navigation</span><span>Real-world deployment</span><span>Team engineering</span></div>
+      </article>
+    </section>
+
+    <section class="section" id="honors" aria-labelledby="honors-title">
+      <h2 id="honors-title">Selected Honors</h2>
+      <p class="section-note">Competition results are team awards.</p>
+      <ul class="honors-list">
+        <li><span class="year">2026</span><div><strong>RoboCup · Humanoid Soccer League, Large Division</strong><p>Champion with Tsinghua Hephaestus, Incheon, Republic of Korea.</p></div></li>
+        <li><span class="year">2025, 2026</span><div><strong>World Humanoid Robot Games · 5v5 Soccer</strong><p>Champion with Tsinghua Hephaestus; large-robot category in 2026.</p></div></li>
+        <li><span class="year">2026</span><div><strong>RoboCup China Open · Humanoid Large League</strong><p>First Prize (Champion), and Champion of the Technical Challenge.</p></div></li>
+        <li><span class="year">2026</span><div><strong>Tsinghua Future Robotics Challenge</strong><p>First Prize · Team Captain.</p></div></li>
+        <li><span class="year">2026</span><div><strong>Spark Fellowship, Tsinghua University</strong><p>Selected for the 20th cohort of the student innovation talent program.</p></div></li>
+        <li><span class="year">2025</span><div><strong>Second Embodied Intelligence Challenge</strong><p>First Prize · Deputy Team Captain, Department of Automation.</p></div></li>
+        <li><span class="year">2024</span><div><strong>Tang Chung Ying Scholarship</strong><p>Tsinghua University.</p></div></li>
+      </ul>
+    </section>
+
+    <section class="section" id="beyond-research" aria-labelledby="beyond-title">
+      <h2 id="beyond-title">Beyond Research</h2>
+      <article class="text-entry">
+        <div class="entry-heading"><h3>Tang Chung Ying Love Society</h3><span class="entry-date">2026–Present</span></div>
+        <p class="summary">As Vice President for General Affairs, I coordinate reporting, foundation liaison, and volunteer recruitment. Previously, I served as Head of General Affairs.</p>
+      </article>
+      <article class="text-entry">
+        <div class="entry-heading"><h3>Learning from Industry and Communities</h3><span class="entry-date">2026</span></div>
+        <p class="summary">Led a 17-member team on an eight-day field study of embodied intelligence, drones, and autonomous driving in Guangdong. In Fangzheng, Heilongjiang, I led a 15-member rural revitalization team, organized robotics outreach, and helped establish an online teaching program at a local primary school.</p>
+      </article>
+    </section>
+    <footer>
+      <p>Yunkang Cheng · Tsinghua University</p>
+      <p><a href="mailto:m13700702234@163.com">m13700702234@163.com</a></p>
+      <div class="footer-last"><span>Updated November 2026</span><a href="#top">Back to top ↑</a></div>
+    </footer>
+  </main>
+</body>
+</html>
