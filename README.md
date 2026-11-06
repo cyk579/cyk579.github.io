@@ -26,7 +26,18 @@ The education and honors rows and contextual links draw on the academic-homepage
 - Spark Program logo: https://lyy-iiis.github.io/assets/images/spark.png
 - RoboCup logo: https://www.robocup.org/ (official logo asset).
 - World Humanoid Robot Games emblem: cropped from the emblem on Yunkang Cheng's 2026 competition certificate. The certificate and its personal data are not included in this repository.
-- Tang Foundations logo: https://tangfoundation.org/
+- Cyrus Tang Foundation logo and scholarship details: https://www.tangfoundation.org.cn/what-we-do.php?act=moral-education
 - Paper metadata verified at https://arxiv.org/abs/2607.10815.
 
 Organization marks identify the associated institution, program, or event.
+
+
+## November 2026 editorial revision
+
+- The Department of Automation emblem is cropped, with its colors and proportions retained, from the department-provided presentation template (the purple emblem in its institutional wordmark). Its design was cross-checked against https://www.au.tsinghua.edu.cn/en/.
+- Faculty title and department name: https://www.au.tsinghua.edu.cn/en/info/1081/3286.htm.
+- RoboCup league and division names, team spelling, and 2026 championship: https://hsl.robocup.org/robocup-2026/results/.
+- `Spark Fellowship` is retained from Tsinghua's Youth League Committee funding-letter template.
+- `Student Academic Research Advancement Program` is retained from Article 20 of the university's program implementation rules, revised March 2026. It is not the SRT program.
+- Other internal award, club, role, and course names are faithful descriptive English translations where an authoritative English title was not available; they are not claimed as official translations.
+- Technical descriptions distinguish simulation evaluation from hardware demonstrations. Local stability refers to the Jacobian of the Poincaré return map at a fixed point.
