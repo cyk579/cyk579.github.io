@@ -14,6 +14,7 @@
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
+  <script src="video.js" defer></script>
 </head>
 <body id="top">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -57,15 +58,22 @@
       <h2 id="publications-title">Publications</h2>
       <article class="entry publication">
         <div class="entry-media">
-          <a class="video-preview" href="https://cyk579.github.io/Roller-Skating/videos/hero_clean.mp4" aria-label="Watch the humanoid roller-skating demonstration"><img src="assets/skating.webp" width="800" height="450" alt="Booster T1 performing Push Glide in real-robot experiments"><span class="play-icon" aria-hidden="true">▶</span></a>
+          <a class="video-preview" href="assets/videos/roller-skating.mp4" data-open-video aria-haspopup="dialog" aria-controls="demo-dialog" aria-label="Enlarge the humanoid roller-skating video">
+            <video id="skating-preview" autoplay muted loop playsinline preload="auto" poster="assets/skating.webp" width="960" height="540" aria-label="Booster T1 roller-skating demonstration">
+              <source src="assets/videos/roller-skating.webm" type="video/webm">
+              <source src="assets/videos/roller-skating.mp4" type="video/mp4">
+            </video>
+            <span class="expand-label" aria-hidden="true">Enlarge ↗</span>
+          </a>
           <p class="media-caption">Booster T1 · Real-robot demonstrations</p>
+          <div class="preview-actions"><button id="preview-toggle" type="button" aria-controls="skating-preview" hidden>Play preview</button></div>
         </div>
         <div class="entry-body">
           <h3><a href="https://arxiv.org/abs/2607.10815">Learning Roller-Skating Motions of Humanoid Robots Based on Adversarial Motion Priors <span aria-hidden="true">↗</span></a></h3>
           <p class="authors"><strong><u>Yunkang Cheng*</u></strong>, Yutong Wu*, Menghan Li, Shihe Zhou, <a href="https://www.au.tsinghua.edu.cn/en/info/1081/3286.htm">Mingguo Zhao</a></p>
           <p class="summary">We train separate Pump Glide and Push Glide policies using proximal policy optimization (PPO) with adversarial motion priors (AMP) learned from human motion-capture data. We evaluate wheel-ground contact models and policy performance in simulation and demonstrate both gaits on the Booster T1 humanoid.</p>
           <div class="tags"><span>CLAWAR 2026 · Oral presentation</span><span>Imitation learning</span><span>Humanoid robotics</span></div>
-          <p class="entry-links publication-links"><a href="https://arxiv.org/abs/2607.10815">arXiv ↗</a><a href="https://arxiv.org/pdf/2607.10815">PDF ↗</a><a href="https://cyk579.github.io/Roller-Skating/">Project website ↗</a><a href="https://cyk579.github.io/Roller-Skating/videos/hero_clean.mp4">Demo video ↗</a></p>
+          <p class="entry-links publication-links"><a href="https://arxiv.org/abs/2607.10815">arXiv ↗</a><a href="https://arxiv.org/pdf/2607.10815">PDF ↗</a><a href="https://cyk579.github.io/Roller-Skating/">Project website ↗</a><a href="assets/videos/roller-skating.mp4" data-open-video aria-haspopup="dialog" aria-controls="demo-dialog">Demo video ↗</a></p>
           <p class="note">* Equal contribution. Presented in Cranfield, UK, September 2026.</p>
         </div>
       </article>
@@ -135,5 +143,14 @@
       <div class="footer-last"><span>Updated November 2026</span><a href="#top">Back to top ↑</a></div>
     </footer>
   </main>
+  <dialog id="demo-dialog" aria-labelledby="demo-title">
+    <div class="demo-heading"><h2 id="demo-title">Humanoid Roller-Skating</h2><button id="close-demo" type="button" autofocus>Close ✕</button></div>
+    <video id="skating-player" controls muted playsinline preload="none" poster="assets/skating.webp" width="960" height="540" aria-label="Booster T1 roller-skating demonstration">
+      <source src="assets/videos/roller-skating.webm" type="video/webm">
+      <source src="assets/videos/roller-skating.mp4" type="video/mp4">
+      <a href="assets/videos/roller-skating.mp4">Download the demonstration video</a>.
+    </video>
+    <p class="demo-download"><a href="assets/videos/roller-skating.mp4" download>Download MP4</a></p>
+  </dialog>
 </body>
 </html>
