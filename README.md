@@ -30,6 +30,7 @@ The education and honors rows and contextual links draw on the academic-homepage
 - World Humanoid Robot Games emblem: cropped from the emblem on Yunkang Cheng's 2026 competition certificate. The certificate and its personal data are not included in this repository.
 - Cyrus Tang Foundation logo and scholarship details: https://www.tangfoundation.org.cn/what-we-do.php?act=moral-education
 - Paper metadata verified at https://arxiv.org/abs/2607.10815.
+- Booster Robotics name and logo: https://www.booster.tech/ (official header wordmark). Internship dates, Booster Lab affiliation, and the motion control algorithm engineering role were supplied by Yunkang Cheng.
 
 Organization marks identify the associated institution, program, or event.
 
