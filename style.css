@@ -108,3 +108,12 @@ body.video-open{overflow:hidden}
 @media(min-width:581px) and (max-width:760px){.honors-list li{grid-template-columns:180px minmax(0,1fr);gap:24px}.honors-list .organization-logo{width:180px}.honors-list .wide-logo img{width:160px}}
 @media(max-width:760px){#education .education-entry{grid-template-columns:235px minmax(0,1fr)}#education .organization-logo{width:235px}}
 @media(max-width:580px){#education .education-entry{grid-template-columns:65px minmax(0,1fr)}#education .organization-logo{width:65px;min-height:65px}#education .organization-logo img{width:65px;height:65px}#education .education-entry p{font-size:14px;margin-top:10px}.experience-entry .organization-logo img{width:60px;height:60px}}
+
+.team-entry h3{font-size:21px;font-weight:700}
+.team-media .team-crest{display:flex;justify-content:center;margin-bottom:18px}
+.team-media .team-crest img{width:160px;height:160px;aspect-ratio:auto;object-fit:contain;background:#fff;border-radius:0}
+.team-media .team-photo{width:100%;height:auto;aspect-ratio:1200/794;object-fit:contain}
+.team-highlights{padding-left:19px;margin:0 0 14px;font-size:14px;line-height:1.75;color:#3e464d}
+.team-highlights li{padding-left:1px;margin:0 0 7px}
+.qmini-media img{aspect-ratio:4/3;object-fit:contain}
+@media(max-width:580px){.team-entry h3{font-size:19px}.team-media .team-crest img{width:140px;height:140px}.team-media .team-photo,.qmini-media img{max-height:none}}

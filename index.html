@@ -13,7 +13,7 @@
   <meta property="og:image" content="https://cyk579.github.io/assets/portrait.webp">
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css?v=awards1">
+  <link rel="stylesheet" href="style.css?v=projects3">
   <script src="video.js" defer></script>
 </head>
 <body id="top">
@@ -34,7 +34,7 @@
         </nav>
       </div>
       <div class="bio-text">
-        <p>I am an undergraduate student in the <a href="https://www.au.tsinghua.edu.cn/en/">Department of Automation</a> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> and expect to graduate in 2029. I conduct research in the Robot Control Laboratory under the supervision of <a href="https://www.au.tsinghua.edu.cn/en/info/1081/3286.htm">Prof. Mingguo Zhao</a> and am a member of the <a href="https://hsl.robocup.org/robocup-2026/results/">Tsinghua Hephaestus</a> humanoid soccer team.</p>
+        <p>I am an undergraduate student in the <a href="https://www.au.tsinghua.edu.cn/en/">Department of Automation</a> at <a href="https://www.tsinghua.edu.cn/en/">Tsinghua University</a> and expect to graduate in 2029. I conduct research in the Robot Control Laboratory under the supervision of <a href="https://www.au.tsinghua.edu.cn/en/info/1081/3286.htm">Prof. Mingguo Zhao</a> and am a member of the <a href="http://www.tsinghuahephaestus.com/">Tsinghua Hephaestus</a> humanoid soccer team.</p>
         <p><strong>Research interests:</strong> robot learning, reinforcement and imitation learning, humanoid locomotion, contact dynamics, and sim-to-real transfer.</p>
         <p>My research focuses on <strong>learning humanoid locomotion skills from human demonstrations</strong> and transferring learned policies to physical robots. I currently lead a project on humanoid roller-skating with passive wheels, with an emphasis on adversarial motion priors, wheel-ground contact modeling, and experimental evaluation.</p>
         <p class="opportunity">I am interested in summer research and academic exchange opportunities in robot learning. Please <a href="mailto:m13700702234@163.com">contact me by email</a> to discuss potential opportunities.</p>
@@ -92,33 +92,37 @@
 
     <section class="section" id="projects" aria-labelledby="projects-title">
       <h2 id="projects-title">Selected Projects</h2>
-      <article class="entry">
-        <div class="entry-media">
-          <img src="assets/qmini.webp" width="800" height="500" loading="lazy" alt="The assembled Qmini bipedal robot on a laboratory workbench">
+      <article class="entry team-entry" id="hephaestus">
+        <div class="entry-media team-media">
+          <a class="team-crest" href="http://www.tsinghuahephaestus.com/" aria-label="Tsinghua Hephaestus team website"><img src="assets/logos/hephaestus.png?v=2" width="800" height="800" alt="Tsinghua Hephaestus team crest" loading="lazy"></a>
+          <a href="assets/hephaestus-team.webp"><img class="team-photo" src="assets/hephaestus-team.webp" width="1200" height="794" alt="Tsinghua Hephaestus with the championship trophy at the 2026 World Humanoid Robot Games" loading="lazy"></a>
+          <p class="media-caption">World Humanoid Robot Games · 2026</p>
+        </div>
+        <div class="entry-body">
+          <h3><a href="http://www.tsinghuahephaestus.com/">Tsinghua Hephaestus · Humanoid Robot Soccer</a></h3>
+          <p class="entry-meta">Core Team Member · 2025–2026</p>
+          <p class="summary">Founded in 2004, <strong>Tsinghua Hephaestus</strong> is Tsinghua University's humanoid robot soccer team, advised by <a href="https://www.au.tsinghua.edu.cn/en/info/1081/3286.htm">Prof. Mingguo Zhao</a>.</p>
+          <ul class="team-highlights">
+            <li><strong>RoboCup 2025:</strong> AdultSize Soccer and Technical Challenge champions; the first Chinese team to win the AdultSize soccer title.</li>
+            <li><strong>RoboCup 2026:</strong> Humanoid Soccer League, Large Division champions.</li>
+            <li><strong>World Humanoid Robot Games:</strong> 5v5 soccer champions in 2025 and 2026.</li>
+          </ul>
+          <p class="summary"><strong>My contribution:</strong> I developed obstacle-avoidance and navigation algorithms for high-speed motion, field re-entry, and positioning, and worked with teammates on integration, testing, and on-site deployment at RoboCup and the World Humanoid Robot Games.</p>
+          <p class="entry-links"><a href="http://www.tsinghuahephaestus.com/">Team website ↗</a><a href="https://english.news.cn/20250723/1d0f0b61bff142f5954fc42621c68bea/c.html">Xinhua coverage ↗</a><a href="https://hsl.robocup.org/robocup-2026/results/">RoboCup 2026 results ↗</a></p>
+        </div>
+      </article>
+      <article class="entry" id="qmini">
+        <div class="entry-media qmini-media">
+          <a href="https://github.com/unitreerobotics/Qmini"><img src="assets/qmini-official.webp" width="1200" height="900" loading="lazy" alt="Unitree Qmini bipedal robot standing on grass, from the official open-source project"></a>
+          <p class="media-caption"><a href="https://github.com/unitreerobotics/Qmini">Unitree Qmini · Official project image</a></p>
         </div>
         <div class="entry-body">
           <h3>Qmini Bipedal Robot: Assembly and Integration</h3>
           <p class="entry-meta">Course Project in Manufacturing Engineering · Fall 2025</p>
-          <p class="summary">I assembled and modified a 12-degree-of-freedom Qmini biped based on an open-source design, resolving mechanical-fit and wiring issues, calibrating the standing posture, and testing motion-control functions.</p>
+          <p class="summary">I assembled and integrated a Unitree Qmini biped, resolving mechanical-fit and wiring issues, calibrating its standing posture, and testing motion-control functions.</p>
           <div class="tags"><span>Robot hardware</span><span>Control</span><span>Prototyping</span></div>
-          <p class="entry-links"><a href="https://github.com/cyk579/RoboTamer4Qmini">GitHub repository (fork) ↗</a></p>
+          <p class="entry-links"><a href="https://github.com/unitreerobotics/Qmini">Official Qmini project ↗</a><a href="https://github.com/cyk579/RoboTamer4Qmini">Code repository (fork) ↗</a></p>
         </div>
-      </article>
-      <article class="entry">
-        <div class="entry-media diagram">
-          <img src="assets/passive-walking.webp" width="850" height="522" loading="lazy" alt="MATLAB visualization of a passive biped's walking cycle">
-        </div>
-        <div class="entry-body">
-          <h3>Passive Dynamic Walking: Modeling and Stability</h3>
-          <p class="entry-meta">Course Project in Humanoid Robotics · October 2026</p>
-          <p class="summary">I modeled a passive biped with circular-arc feet in MATLAB using hybrid dynamics and impact maps. I assessed local stability from the Jacobian of the Poincaré return map at each fixed point, and evaluated perturbation recovery over 50 steps for 48 parameter configurations.</p>
-          <div class="tags"><span>Dynamics</span><span>Stability analysis</span><span>MATLAB</span></div>
-        </div>
-      </article>
-      <article class="text-entry">
-        <div class="entry-heading"><h3>Humanoid Soccer Navigation</h3><span class="entry-date">2025–2026</span></div>
-        <p class="summary">As a member of Tsinghua Hephaestus, I developed obstacle-avoidance and navigation algorithms for high-speed motion, field re-entry, and positioning. I worked with teammates to integrate and test these behaviors for RoboCup and the World Humanoid Robot Games.</p>
-        <div class="tags"><span>Robot navigation</span><span>Real-world deployment</span><span>Systems integration</span></div>
       </article>
     </section>
 

@@ -40,7 +40,18 @@ Organization marks identify the associated institution, program, or event.
 - The Department of Automation emblem is cropped, with its colors and proportions retained, from the department-provided presentation template (the purple emblem in its institutional wordmark). Its design was cross-checked against https://www.au.tsinghua.edu.cn/en/.
 - Faculty title and department name: https://www.au.tsinghua.edu.cn/en/info/1081/3286.htm.
 - RoboCup league and division names, team spelling, and 2026 championship: https://hsl.robocup.org/robocup-2026/results/.
-- `Spark Fellowship` is retained from Tsinghua's Youth League Committee funding-letter template.
+- The website uses `Sparking Program` and `Top 1% in Tsinghua`, following the wording supplied by Yunkang Cheng.
 - `Student Academic Research Advancement Program` is retained from Article 20 of the university's program implementation rules, revised March 2026. It is not the SRT program.
 - Other internal award, club, role, and course names are faithful descriptive English translations where an authoritative English title was not available; they are not claimed as official translations.
 - Technical descriptions distinguish simulation evaluation from hardware demonstrations. Local stability refers to the Jacobian of the Poincaré return map at a fixed point.
+
+
+## Project photographs and team context
+
+- Qmini photograph: `images/Qmini.jpeg` from https://github.com/unitreerobotics/Qmini, git blob `4b26e896ba7206f5458d109bbf4c955e513d8753`. The same original image was already present in Yunkang Cheng's local Qmini project. The webpage labels it as the official project image, not as a photograph of his personal build.
+- Hephaestus crest: restored from the team flag in Yunkang Cheng's local 2025 World Humanoid Robot Games group photograph; Yunkang confirmed the same crest in his 2026 team photo. The website display version removes the fabric background, suppresses the fold, levels the lettering, and simplifies the photographed pigments to red, dark red, gold, and dark lettering. It retains the photographed emblem and original letter contours; it is a restoration for display, not an official master logo. The PNG has a transparent background.
+- The 2026 team photograph was supplied directly by Yunkang Cheng.
+- Team website and founding year: http://www.tsinghuahephaestus.com/, linked by the official 2025 RoboCup qualification list at https://humanoid.robocup.org/robocup-2025/qualified-teams-for-rc-2025/.
+- 2025 soccer and technical challenge titles: team website. First Chinese AdultSize soccer title: https://english.news.cn/20250723/1d0f0b61bff142f5954fc42621c68bea/c.html.
+- 2026 Large Division title: https://hsl.robocup.org/robocup-2026/results/.
+- World Humanoid Robot Games titles and personal contributions follow Yunkang's existing CV materials. Team-level achievements are explicitly separated from his own engineering work.
