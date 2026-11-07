@@ -63,3 +63,10 @@ Organization marks identify the associated institution, program, or event.
 - Guangdong formal Chinese name: 清华大学自动化系“鹏城智行”赴广东调研无人经济实践支队. Verified in the 2026 team handbook and the “四个100” application. The English name retains the distinctive team name as `Pengcheng Zhixing`, followed by `Social Practice Team, Guangdong`; its Department of Automation / Tsinghua University affiliation appears on the role line.
 - Fangzheng formal Chinese name: 清华大学乡村振兴工作站赴黑龙江方正支队. Verified in the 2026 handbook and Yunkang's Certificate of Social Practice, which records January 19–February 1, 2026. English uses `Rural Revitalization Workstation Team, Fangzheng`, with Tsinghua University on the role line. These English labels are faithful renderings of the documented Chinese names, not claimed official English branding.
 - Award levels are emphasized typographically while preserving whether the achievement belongs to a team. Desktop round/square award logos are 88 px; horizontal logos fit within 148 × 80 px, with smaller mobile sizes.
+
+
+## Scholarship record correction (November 7, 2026)
+
+Yunkang clarified that his 2026 清华大学综合优秀奖学金（国家励志奖学金） is a single award. List it once as `National Encouragement Scholarship`, with `Comprehensive Excellence Scholarship` as the corresponding Tsinghua designation. Do not present an additional Comprehensive Excellence Award or use “also received.” This describes his award record, not a claim that the two designations are universally interchangeable.
+
+The CV skill list also includes user-confirmed CUDA, Booster T2, Raspberry Pi, and NVIDIA Jetson Nano. The note that the Guangdong team earned the Department of Automation's third university gold award is emphasized in the website and both CVs.
