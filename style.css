@@ -118,7 +118,8 @@ body.video-open{overflow:hidden}
 .qmini-media img{aspect-ratio:4/3;object-fit:contain}
 @media(max-width:580px){.team-entry h3{font-size:19px}.team-media .team-crest img{width:140px;height:140px}.team-media .team-photo,.qmini-media img{max-height:none}}
 
-.award-rank{font-weight:700;color:var(--ink)}
+.award-rank{font-weight:700;color:#c00}
+.tags .presentation-highlight{color:#c00;background:#fff1f1}
 #beyond-research .entry-meta{font-size:14px;line-height:1.65}
 .experience-points{margin:0;padding-left:20px;font-size:14px;line-height:1.75;color:#3e464d}
 .experience-points li+li{margin-top:5px}

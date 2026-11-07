@@ -74,3 +74,5 @@ The CV skill list also includes user-confirmed CUDA, Booster T2, Raspberry Pi, a
 ## CV honors wording alignment (November 7, 2026)
 
 The bilingual CVs follow the website descriptions for the National Encouragement Scholarship / Comprehensive Excellence Scholarship, Sparking Program (Top 1% in Tsinghua), and Tang Chung Ying Moral Education Scholarship (academic achievement and commitment to service). The English CV uses Sparking Program consistently instead of Spark Fellowship. The Chinese CV retains the full Chinese program name and conveys the same concise distinction.
+
+CV and website emphasis uses red (#CC0000) for oral presentation status, championship/prize ranks, Top 1%, and the third university gold award distinction. Section and entry titles remain black; the CV equal-contribution note uses normal-weight black text.
