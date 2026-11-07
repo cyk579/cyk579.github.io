@@ -70,3 +70,7 @@ Organization marks identify the associated institution, program, or event.
 Yunkang clarified that his 2026 清华大学综合优秀奖学金（国家励志奖学金） is a single award. List it once as `National Encouragement Scholarship`, with `Comprehensive Excellence Scholarship` as the corresponding Tsinghua designation. Do not present an additional Comprehensive Excellence Award or use “also received.” This describes his award record, not a claim that the two designations are universally interchangeable.
 
 The CV skill list also includes user-confirmed CUDA, Booster T2, Raspberry Pi, and NVIDIA Jetson Nano. The note that the Guangdong team earned the Department of Automation's third university gold award is emphasized in the website and both CVs.
+
+## CV honors wording alignment (November 7, 2026)
+
+The bilingual CVs follow the website descriptions for the National Encouragement Scholarship / Comprehensive Excellence Scholarship, Sparking Program (Top 1% in Tsinghua), and Tang Chung Ying Moral Education Scholarship (academic achievement and commitment to service). The English CV uses Sparking Program consistently instead of Spark Fellowship. The Chinese CV retains the full Chinese program name and conveys the same concise distinction.
