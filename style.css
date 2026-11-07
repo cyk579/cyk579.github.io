@@ -46,17 +46,18 @@ h3 a span{color:#80919d;font-size:18px}
 .entry-date{white-space:nowrap;color:var(--muted);font-size:12px}
 .section-note{font-size:12px;color:var(--muted);margin:-10px 0 14px}
 .honors-list{list-style:none;padding:0;margin:0}
-.honors-list li{display:grid;grid-template-columns:130px minmax(0,1fr);gap:28px;align-items:center;padding:20px 0;border-bottom:1px solid #f0f2f4}
-.honors-list li:last-child{border-bottom:0}
-.honors-list h3{font-size:16px;margin-bottom:5px}
-.honors-list p{font-size:14px;color:#5c646c;line-height:1.65;margin:2px 0 0}
+.honors-list li{display:grid;grid-template-columns:285px minmax(0,1fr);gap:28px;align-items:center;padding:24px 0}
+.honors-list li:first-child{padding-top:0}
+.honors-list li:last-child{padding-bottom:0}
+.honors-list h3{font-size:21px;font-weight:700;line-height:1.5;margin:0 0 14px}
+.honors-list p{font-size:16px;color:#4d5660;line-height:1.65;margin:14px 0 0}
 footer{margin-top:44px;padding:23px 0 30px;border-top:1px solid var(--rule);color:var(--muted);font-size:12px}
 footer p{margin:0 0 3px}
 .footer-last{display:flex;justify-content:space-between;gap:16px;margin-top:14px}
 .skip-link{position:fixed;left:12px;top:-100px;padding:8px 14px;background:#fff;border:2px solid var(--link);z-index:10}
 .skip-link:focus{top:12px}
 @media(max-width:760px){.page{margin-top:34px;padding:0 23px}.bio{grid-template-columns:180px minmax(0,1fr);gap:25px}.portrait{width:180px;height:180px}h1{font-size:35px}.bio-text{font-size:15px}.entry{grid-template-columns:235px minmax(0,1fr);gap:22px}}
-@media(max-width:580px){.page{margin-top:28px;padding:0 20px}.page-header{margin-bottom:25px}h1{font-size:29px}.chinese{margin-left:3px}.bio{display:flex;flex-direction:column;gap:24px}.bio-photo{align-self:center}.portrait{width:170px;height:170px}.bio-text{font-size:15px;line-height:1.8}.contact-links{margin-top:12px}.section{margin-top:42px}h2{font-size:29px;margin-bottom:24px;padding-bottom:14px}.entry{grid-template-columns:1fr;gap:17px;margin-bottom:22px;padding-bottom:24px}.entry-media{max-width:100%}.entry-media img{max-height:230px}.publication .entry-media video{aspect-ratio:16/9}.entry-media.diagram img{height:210px}.media-caption{font-size:11px}h3{font-size:18px}.summary{font-size:14px}.authors{font-size:12px}.entry-heading{display:block}.entry-date{display:block;margin:-3px 0 9px}.honors-list li{grid-template-columns:65px minmax(0,1fr);gap:16px;padding:19px 0}.honors-list h3{font-size:15px}.honors-list .entry-date{margin:0 0 5px}.footer-last{font-size:11px}footer p a{overflow-wrap:anywhere}}
+@media(max-width:580px){.page{margin-top:28px;padding:0 20px}.page-header{margin-bottom:25px}h1{font-size:29px}.chinese{margin-left:3px}.bio{display:flex;flex-direction:column;gap:24px}.bio-photo{align-self:center}.portrait{width:170px;height:170px}.bio-text{font-size:15px;line-height:1.8}.contact-links{margin-top:12px}.section{margin-top:42px}h2{font-size:29px;margin-bottom:24px;padding-bottom:14px}.entry{grid-template-columns:1fr;gap:17px;margin-bottom:22px;padding-bottom:24px}.entry-media{max-width:100%}.entry-media img{max-height:230px}.publication .entry-media video{aspect-ratio:16/9}.entry-media.diagram img{height:210px}.media-caption{font-size:11px}h3{font-size:18px}.summary{font-size:14px}.authors{font-size:12px}.entry-heading{display:block}.entry-date{display:block;margin:-3px 0 9px}.honors-list li{grid-template-columns:65px minmax(0,1fr);gap:16px;padding:19px 0}.honors-list h3{font-size:18px;margin-bottom:10px}.footer-last{font-size:11px}footer p a{overflow-wrap:anywhere}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 @media print{.page{margin:0;max-width:none}.contact-links,.skip-link,video{display:none}.section{break-inside:avoid}a{color:inherit}.bio{grid-template-columns:150px 1fr}.portrait{width:150px;height:150px}}
 
@@ -83,7 +84,9 @@ body.video-open{overflow:hidden}
 .organization-logo{display:flex;align-items:center;justify-content:center;width:130px;min-height:90px}
 .organization-logo img{width:90px;height:90px;object-fit:contain}
 .wide-logo img{width:120px;height:82px}
-.honors-list .entry-heading{gap:18px}
+.honors-list .organization-logo{width:285px;min-height:140px}
+.honors-list .organization-logo img{width:140px;height:140px}
+.honors-list .wide-logo img{width:220px;height:120px}
 .honors-list h3 a{color:var(--ink)}
 .honors-list h3 a:hover{color:var(--link)}
 .publication-links{gap:8px}
@@ -91,7 +94,7 @@ body.video-open{overflow:hidden}
 .publication-links a:hover{background:#f0f6fb;text-decoration:none}
 .authors a{color:inherit}
 .authors a:hover{color:var(--link)}
-@media(max-width:580px){.education-entry{grid-template-columns:65px minmax(0,1fr);gap:16px;align-items:start}.organization-logo{width:65px;min-height:65px}.organization-logo img{width:60px;height:60px}.wide-logo img{width:65px;height:60px}.education-entry p{font-size:14px}.education-entry .entry-date{margin:0 0 7px}.honors-list p{font-size:13px}}
+@media(max-width:580px){.education-entry{grid-template-columns:65px minmax(0,1fr);gap:16px;align-items:start}.organization-logo{width:65px;min-height:65px}.organization-logo img{width:60px;height:60px}.wide-logo img{width:65px;height:60px}.education-entry p{font-size:14px}.education-entry .entry-date{margin:0 0 7px}.honors-list p{font-size:14px;margin-top:10px}.honors-list .organization-logo{width:65px;min-height:65px}.honors-list .organization-logo img{width:65px;height:65px}.honors-list .wide-logo img{height:60px}}
 
 .education-entry h3{font-size:21px;font-weight:700;line-height:1.5}
 .education-entry .organization-logo img{width:110px;height:110px}
@@ -102,5 +105,6 @@ body.video-open{overflow:hidden}
 #education h3{margin-bottom:14px}
 #education .education-entry p{font-size:16px;margin:14px 0 0}
 .experience-entry .organization-logo img{width:96px;height:96px}
+@media(min-width:581px) and (max-width:760px){.honors-list li{grid-template-columns:180px minmax(0,1fr);gap:24px}.honors-list .organization-logo{width:180px}.honors-list .wide-logo img{width:160px}}
 @media(max-width:760px){#education .education-entry{grid-template-columns:235px minmax(0,1fr)}#education .organization-logo{width:235px}}
 @media(max-width:580px){#education .education-entry{grid-template-columns:65px minmax(0,1fr)}#education .organization-logo{width:65px;min-height:65px}#education .organization-logo img{width:65px;height:65px}#education .education-entry p{font-size:14px;margin-top:10px}.experience-entry .organization-logo img{width:60px;height:60px}}
