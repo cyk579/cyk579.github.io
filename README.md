@@ -55,3 +55,11 @@ Organization marks identify the associated institution, program, or event.
 - 2025 soccer and technical challenge titles: team website. First Chinese AdultSize soccer title: https://english.news.cn/20250723/1d0f0b61bff142f5954fc42621c68bea/c.html.
 - 2026 Large Division title: https://hsl.robocup.org/robocup-2026/results/.
 - World Humanoid Robot Games titles and personal contributions follow Yunkang's existing CV materials. Team-level achievements are explicitly separated from his own engineering work.
+
+
+## Extracurricular names and alignment
+
+- The website and both CVs list the volunteer association, Guangdong team, and Fangzheng team separately, with matching roles, dates, contributions and awards.
+- Guangdong formal Chinese name: 清华大学自动化系“鹏城智行”赴广东调研无人经济实践支队. Verified in the 2026 team handbook and the “四个100” application. The English name retains the distinctive team name as `Pengcheng Zhixing`, followed by `Social Practice Team, Guangdong`; its Department of Automation / Tsinghua University affiliation appears on the role line.
+- Fangzheng formal Chinese name: 清华大学乡村振兴工作站赴黑龙江方正支队. Verified in the 2026 handbook and Yunkang's Certificate of Social Practice, which records January 19–February 1, 2026. English uses `Rural Revitalization Workstation Team, Fangzheng`, with Tsinghua University on the role line. These English labels are faithful renderings of the documented Chinese names, not claimed official English branding.
+- Award levels are emphasized typographically while preserving whether the achievement belongs to a team. Desktop round/square award logos are 88 px; horizontal logos fit within 148 × 80 px, with smaller mobile sizes.
